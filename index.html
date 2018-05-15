@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Page Title</title>
+            <link rel="stylesheet" type="text/css" href='css/style.css' />
+        </head>
+
+        <body>
+            <div class="container">
+                
+                <div class="title-wrapper">
+                    <div class="title">
+                        Game Rules:
+                    </div>
+                    <div class="rule">
+                            Press 'Get A Number!' button to get a lucky score, press 'Hold' button to save the score. Then, the next player's turn. Win the game when your score accumulate to or more than 30! You will lose the score when you get 1 or 5. Good luck! 😊
+                    </div>
+                </div>
+
+                <div class="game-wrapper">
+                    <div class="player-0-panel active">
+                        <div id="name-0" class="player-name">Player 1</div>
+                        <div id="score-0" class="player-score">0</div>
+                        <div class="player-current-box">
+                            <div class="player-current-label">Current</div>
+                            <div id="current-0" class="player-current-score">0</div>
+                        </div>
+                    </div>
+
+                    <div class="player-1-panel">
+
+                        <div id="name-1" class="player-name">Player 2</div>
+                        <div id="score-1" class="player-score">0</div>
+                        <div class="player-current-box">
+                            <div class="player-current-label">Current</div>
+                            <div id="current-1" class="player-current-score">0</div>
+                        </div>
+                    </div>
+
+                    <div class="button-wrapper">
+                        <button class="btn-new">Player Again</button>
+                        <button class="btn-roll">Get a Number!</button>
+                        <button class="btn-hold">Hold</button>
+                    </div>
+
+                    <div class="number-wrapper">
+                        <div class="number">0</div>
+                    </div>
+            </div>
+
+            <script src="main.js"></script>
+        </body> 
+    </html>
